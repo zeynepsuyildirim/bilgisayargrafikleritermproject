@@ -15,6 +15,7 @@ function main() {
     function drawRectangle(x, y, width, height) {
         return [
             x, y, 0.0,
+            x + width, y, 0.0,
             x, y - height, 0.0,
             x, y - height, 0.0,
             x + width, y, 0.0,
